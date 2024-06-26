@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 400px;
+    height: 812px;
+    text-align: center;
+}
+
+.container {
+    background-color: #0e0d0d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.login-form .input-group {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: left;
+    width: 90%;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+   
+    height: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    color: var(--Colors-White, #FFF);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.3px;
+text-decoration-line: underline;
+margin-right: 5px;
+}
+
+.sign-in-btn, .create-membership-btn {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.sign-in-btn:hover, .create-membership-btn:hover {
+    background-color: #8a2be2;
+}
+
+.create-membership-btn {
+    background-color: transparent;
+    border: 1px solid #6a0dad;
+}
+
+.create-membership-btn:hover {
+    background-color: #6a0dad;
+}
+#logo{
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+h1{
+    text-align: left;
+  
+}
+.givy{
+    text-align: start;
+   
+}
+p{
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 5px;
+
+}
+
+
+/* forgot*/
+
+.container {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.membership-form .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.membership-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.membership-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.membership-form small {
+    display: block;
+    margin-top: 5px;
+    color: #f00;
+}
+
+.confirm-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.confirm-btn:hover {
+    background-color: #8a2be2;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-btn {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.apple-btn {
+    background-color: #000;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+}
+
+.google-btn {
+    background-color: #db4437;
+}
+
+.social-btn:hover {
+    opacity: 0.8;
+}
+/* Reutilizando o CSS anterior */
+
+
+
+.container {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.input-group {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+    width: 90%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+#forgot{
+
+    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+  
+    text-align: left;
+    width: 90%;
+}
+
+#submit{
+    margin-top: 50px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset-password-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.reset-password-btn:hover {
+    background-color: #8a2be2;
+}
